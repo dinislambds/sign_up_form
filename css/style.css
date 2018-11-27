@@ -2,16 +2,55 @@ body, html {
 	height: 100%;
 }
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #454646;
-    background-color: #f9f9f9;
+    color: #323637;
     margin: 0;
     padding: 0;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Sans Narrow', sans-serif;
+
+.form-control, .form-control:focus {
+    height: auto;
+    padding: 12px;
+    border: 1px solid #ced4da0d;
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.form-control::-webkit-input-placeholder {
+    color: #C0C0C0;
+  }
+
+
+
+/* Sign Up Section */
+.signup-section h1 {
+    color: #00A5A9;
+    font-weight: 600;
+}
+.signup-section button, .signup-section button:active, .signup-section button:hover, .signup-section button:focus {
+    background-color: #00A5A9;
+    color: #fff;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 18px;
+}
+form .toggle-password {
+    float: right;
+    margin-right: 15px;
+    margin-top: -32px;
+    position: relative;
+    z-index: 2;
+    color: #b5b0b0;
+}
+form label small {
+    color: #868686cf;
+}
+.form-footer p {
+    font-size: 20px;
+    color: #868686;
 }
 
-
-/* Header Section */
+/* Thank You Section */
+.thankyou-section h1 {
+    color: #00A5A9;
+    font-weight: 400;
+}
