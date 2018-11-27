@@ -9,6 +9,9 @@ body{
     padding: 0;
 }
 
+
+
+/* Sign Up Section */
 .form-control, .form-control:focus {
     height: auto;
     padding: 12px;
@@ -18,10 +21,7 @@ body{
 .form-control::-webkit-input-placeholder {
     color: #C0C0C0;
   }
-
-
-
-/* Sign Up Section */
+  
 .signup-section h1 {
     color: #00A5A9;
     font-weight: 600;
